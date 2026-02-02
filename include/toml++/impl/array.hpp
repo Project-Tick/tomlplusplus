@@ -1,6 +1,7 @@
 //# This file is a part of toml++ and is subject to the the terms of the MIT license.
 //# Copyright (c) Mark Gillard <mark.gillard@outlook.com.au>
-//# See https://github.com/marzer/tomlplusplus/blob/master/LICENSE for the full license text.
+//# Copyright (c) 2026 Project Tick
+//# See https://github.com/Project-Tick/tomlplusplus/blob/master/LICENSE for the full license text.
 // SPDX-License-Identifier: MIT
 #pragma once
 
@@ -26,7 +27,7 @@
 	"for_each() callable causes spurious compilation failures, while returning nothing (void) works fine. "            \
 	"If you believe this message is incorrect for your compiler, you can try your luck by #defining "                  \
 	"TOML_RETURN_BOOL_FROM_FOR_EACH_BROKEN as 0 and recompiling - if it works, great! Let me know at "                 \
-	"https://github.com/marzer/tomlplusplus/issues. Alternatively, if you don't have any need for early-exiting from " \
+	"https://github.com/Project-Tick/tomlplusplus/issues. Alternatively, if you don't have any need for early-exiting from " \
 	"for_each(), you can suppress this error by #defining TOML_RETURN_BOOL_FROM_FOR_EACH_BROKEN_ACKNOWLEDGED "         \
 	"and moving on with your life."
 #endif

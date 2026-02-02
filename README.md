@@ -1,9 +1,9 @@
 [![banner](docs/images/banner.png)][homepage]
-[![Releases](https://img.shields.io/github/v/release/marzer/tomlplusplus?style=flat-square)](https://github.com/marzer/tomlplusplus/releases)
+[![Releases](https://img.shields.io/github/v/release/marzer/tomlplusplus?style=flat-square)](https://github.com/Project-Tick/tomlplusplus/releases)
 [![C++17](docs/images/badge-C++17.svg)][cpp_compilers]
 [![TOML](docs/images/badge-TOML.svg)][v1.0.0]
 [![MIT license](docs/images/badge-license-MIT.svg)](./LICENSE)
-[![ci](https://github.com/marzer/tomlplusplus/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/marzer/tomlplusplus/actions/workflows/ci.yaml)
+[![ci](https://github.com/Project-Tick/tomlplusplus/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/Project-Tick/tomlplusplus/actions/workflows/ci.yaml)
 [![Mentioned in Awesome C++](docs/images/badge-awesome.svg)](https://github.com/fffaraz/awesome-cpp)
 [![Sponsor](docs/images/badge-sponsor.svg)](https://github.com/sponsors/marzer)
 [![Gitter](docs/images/badge-gitter.svg)](https://gitter.im/marzer/tomlplusplus)
@@ -116,7 +116,7 @@ You'll find some more code examples in the `examples` directory, and plenty more
 
 ### Conan
 
-Add `tomlplusplus/3.4.0` to your conanfile.
+Add `tomlplusplus/0.0.5.1` to your conanfile.
 
 ### DDS
 
@@ -124,7 +124,7 @@ Add `tomlpp` to your `package.json5`, e.g.:
 
 ```plaintext
 depends: [
-    'tomlpp^3.4.0',
+    'tomlpp^0.0.5.1',
 ]
 ```
 
@@ -168,8 +168,8 @@ You can also add it as a subproject directly.
 include(FetchContent)
 FetchContent_Declare(
     tomlplusplus
-    GIT_REPOSITORY https://github.com/marzer/tomlplusplus.git
-    GIT_TAG        v3.4.0
+    GIT_REPOSITORY https://github.com/Project-Tick/tomlplusplus.git
+    GIT_TAG        0.0.5.1
 )
 FetchContent_MakeAvailable(tomlplusplus)
 # Example add library: target_link_libraries(MyApp tomlplusplus::tomlplusplus)
@@ -180,7 +180,7 @@ FetchContent_MakeAvailable(tomlplusplus)
 ### Git submodules
 
 ```plaintext
-git submodule add --depth 1 https://github.com/marzer/tomlplusplus.git tomlplusplus
+git submodule add --depth 1 https://github.com/Project-Tick/tomlplusplus.git tomlplusplus
 ```
 
 ### Other environments and package managers
@@ -339,8 +339,8 @@ though you're welcome to reach out via other means. In order of likely response 
 [LICENSE]: ./LICENSE
 [Flexible and Economical UTF-8 Decoder]: http://bjoern.hoehrmann.de/utf-8/decoder/dfa/
 [cpp_compilers]: https://en.cppreference.com/w/cpp/compiler_support
-[reporting issues]: https://github.com/marzer/tomlplusplus/issues/new/choose
-[issues]: https://github.com/marzer/tomlplusplus/issues
+[reporting issues]: https://github.com/Project-Tick/tomlplusplus/issues/new/choose
+[issues]: https://github.com/Project-Tick/tomlplusplus/issues
 [#356]: https://github.com/toml-lang/toml/issues/356
 [#516]: https://github.com/toml-lang/toml/issues/516
 [#562]: https://github.com/toml-lang/toml/issues/562

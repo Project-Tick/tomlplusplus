@@ -1,6 +1,7 @@
 //# This file is a part of toml++ and is subject to the the terms of the MIT license.
 //# Copyright (c) Mark Gillard <mark.gillard@outlook.com.au>
-//# See https://github.com/marzer/tomlplusplus/blob/master/LICENSE for the full license text.
+//# Copyright (c) 2026 Project Tick
+//# See https://github.com/Project-Tick/tomlplusplus/blob/master/LICENSE for the full license text.
 // SPDX-License-Identifier: MIT
 #pragma once
 
@@ -31,7 +32,7 @@ TOML_ENABLE_WARNINGS;
 	"one of the 'ground truths' assumed by the library. Essentially this just means that I don't have the "            \
 	"resources to test on more platforms, but I wish I did! You can try disabling the checks by defining "             \
 	"TOML_DISABLE_ENVIRONMENT_CHECKS, but your mileage may vary. Please consider filing an issue at "                  \
-	"https://github.com/marzer/tomlplusplus/issues to help me improve support for your target environment. "           \
+	"https://github.com/Project-Tick/tomlplusplus/issues to help me improve support for your target environment. "           \
 	"Thanks!"
 
 static_assert(CHAR_BIT == 8, TOML_ENV_MESSAGE);

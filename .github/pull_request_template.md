@@ -31,8 +31,8 @@
     -   [ ] Clang 8 or higher
     -   [ ] GCC 8 or higher
     -   [ ] MSVC 19.20 (Visual Studio 2019) or higher
--   [ ] I've added my name to the list of contributors in [README.md](https://github.com/marzer/tomlplusplus/blob/master/README.md)
+-   [ ] I've added my name to the list of contributors in [README.md](https://github.com/Project-Tick/tomlplusplus/blob/master/README.md)
 
-[CONTRIBUTING.md]: https://github.com/marzer/tomlplusplus/blob/master/CONTRIBUTING.md
-[how-to]: https://github.com/marzer/tomlplusplus/blob/master/CONTRIBUTING.md#regenerating-tomlhpp
-[README.md]: https://github.com/marzer/tomlplusplus/blob/master/README.md
+[CONTRIBUTING.md]: https://github.com/Project-Tick/tomlplusplus/blob/master/CONTRIBUTING.md
+[how-to]: https://github.com/Project-Tick/tomlplusplus/blob/master/CONTRIBUTING.md#regenerating-tomlhpp
+[README.md]: https://github.com/Project-Tick/tomlplusplus/blob/master/README.md

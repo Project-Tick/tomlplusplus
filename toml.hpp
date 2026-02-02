@@ -1,7 +1,7 @@
 //----------------------------------------------------------------------------------------------------------------------
 //
-// toml++ v3.4.0
-// https://github.com/marzer/tomlplusplus
+// toml++ v0.0.5-1
+// https://github.com/Project-Tick/tomlplusplus
 // SPDX-License-Identifier: MIT
 //
 //----------------------------------------------------------------------------------------------------------------------
@@ -26,6 +26,7 @@
 // MIT License
 //
 // Copyright (c) Mark Gillard <mark.gillard@outlook.com.au>
+// Copyright (c) 2026 Project Tick
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 // documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
@@ -1195,9 +1196,10 @@ TOML_ENABLE_WARNINGS;
 
 //********  impl/version.hpp  ******************************************************************************************
 
-#define TOML_LIB_MAJOR 3
-#define TOML_LIB_MINOR 4
-#define TOML_LIB_PATCH 0
+#define TOML_LIB_MAJOR 0
+#define TOML_LIB_MINOR 0
+#define TOML_LIB_PATCH 5
+#define TOML_LIB_TWEAK 1
 
 #define TOML_LANG_MAJOR 1
 #define TOML_LANG_MINOR 0
@@ -1454,7 +1456,7 @@ TOML_PUSH_WARNINGS;
 	"one of the 'ground truths' assumed by the library. Essentially this just means that I don't have the "            \
 	"resources to test on more platforms, but I wish I did! You can try disabling the checks by defining "             \
 	"TOML_DISABLE_ENVIRONMENT_CHECKS, but your mileage may vary. Please consider filing an issue at "                  \
-	"https://github.com/marzer/tomlplusplus/issues to help me improve support for your target environment. "           \
+	"https://github.com/Project-Tick/tomlplusplus/issues to help me improve support for your target environment. "           \
 	"Thanks!"
 
 static_assert(CHAR_BIT == 8, TOML_ENV_MESSAGE);
@@ -6160,7 +6162,7 @@ TOML_PUSH_WARNINGS;
 	"for_each() callable causes spurious compilation failures, while returning nothing (void) works fine. "            \
 	"If you believe this message is incorrect for your compiler, you can try your luck by #defining "                  \
 	"TOML_RETURN_BOOL_FROM_FOR_EACH_BROKEN as 0 and recompiling - if it works, great! Let me know at "                 \
-	"https://github.com/marzer/tomlplusplus/issues. Alternatively, if you don't have any need for early-exiting from " \
+	"https://github.com/Project-Tick/tomlplusplus/issues. Alternatively, if you don't have any need for early-exiting from " \
 	"for_each(), you can suppress this error by #defining TOML_RETURN_BOOL_FROM_FOR_EACH_BROKEN_ACKNOWLEDGED "         \
 	"and moving on with your life."
 #endif

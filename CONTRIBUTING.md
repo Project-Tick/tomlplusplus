@@ -75,6 +75,6 @@ to the library.
 
 [visual studio]: https://visualstudio.microsoft.com/vs/
 [test adapter for catch2]: https://marketplace.visualstudio.com/items?itemName=JohnnyHendriks.ext01
-[reporting issues]: https://github.com/marzer/tomlplusplus/issues
+[reporting issues]: https://github.com/Project-Tick/tomlplusplus/issues
 [catch2]: https://github.com/catchorg/Catch2
 [toml-test]: https://github.com/toml-lang/toml-test
